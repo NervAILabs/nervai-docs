@@ -16,6 +16,19 @@ Welcome to VisualML!
 
 .. toctree::
    :maxdepth: 2
+   :caption: Using the SDK
+
+   usage/graphical-model-builder
+   usage/tracking-experiments
+   usage/building-a-config
+   sdk/optimizing-a-model
+   sdk/visualization
+   sdk/profiling
+   sdk/optimizing/pruning
+   sdk/optimizing/quantization
+
+.. toctree::
+   :maxdepth: 2
    :caption: Basic Usage
 
    usage/graphical-model-builder
@@ -27,9 +40,7 @@ Welcome to VisualML!
    :caption: Advanced Usage
 
    advanced/building-a-custom-model
-   advanced/optimizing-a-model
-   advanced/optimizing-a-model/pruning
-   advanced/optimizing-a-model/quantization
+
 
 .. toctree::
    :maxdepth: 2

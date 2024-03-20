@@ -65,3 +65,54 @@ To implement a new pruning strategy, you need to extend one or more base classes
             masks = {param: fraction_mask(importances[param], self.fraction)
                     for param, value in params.items() if value is not None}
             return masks
+
+----------------------------
+Pruning Strategies Explained
+----------------------------
+
+Here is a brief overview of the pruning strategies available:
+
+- **GlobalMagWeight (Global Magnitude Weight Pruning)**: Prunes the least important weights across the entire network based on their absolute values.
+- **LayerMagWeight (Layerwise Magnitude Weight Pruning)**: Prunes weights within individual layers based on their absolute values.
+- **GlobalMagGrad (Global Magnitude-Gradient Pruning)**: Prunes weights across the entire network based on a combination of their absolute values and gradients.
+- **LayerMagGrad (Layerwise Magnitude-Gradient Pruning)**: Prunes weights within layers based on a combination of their absolute values and gradients.
+- **GlobalMagAct (Global Activation-Magnitude Pruning)**: Prunes weights across the network based on a combination of their absolute values and corresponding activations.
+- **LayerMagAct (Layerwise Activation-Magnitude Pruning)**: Prunes weights within layers based on a combination of their absolute values and corresponding activations.
+- **RandomPruning**: Randomly zeroes out a fraction of weights across the entire network.
+
+
+-------------------------
+Using the Pruning Package
+-------------------------
+
+The pruning package allows for easy application of different pruning strategies to neural network models.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Listing Available Pruning Strategies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Use the `list_pruning_strategies` function to list all available pruning strategies:
+
+.. code-block:: python
+
+    from visualml.optimization import list_pruning_strategies
+
+    strategies = list_pruning_strategies()
+    print(strategies)
+
+    output: ['GlobalMagWeight', 'LayerMagWeight', 'GlobalMagGrad', 'LayerMagGrad', 'GlobalMagAct', 'LayerMagAct', 'RandomPruning']
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Applying Pruning to a Model
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To prune a model, use the `prune` function by specifying the model, strategy, and compression ratio:
+
+.. code-block:: python
+
+    from visualml.optimization import prune
+
+    model = ...
+    pruned_model = prune(model, strategy='RandomPruning', compression=1)
+
+
