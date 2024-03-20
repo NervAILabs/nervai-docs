@@ -20,6 +20,7 @@ Welcome to VisualML!
 
    usage/graphical-model-builder
    usage/tracking-experiments
+   usage/building-a-config
 
 .. toctree::
    :maxdepth: 2
