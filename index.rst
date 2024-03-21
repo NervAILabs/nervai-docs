@@ -18,33 +18,20 @@ Welcome to VisualML!
    :maxdepth: 2
    :caption: Using the SDK
 
-   usage/graphical-model-builder
-   usage/tracking-experiments
-   usage/building-a-config
-   sdk/optimizing-a-model
-   sdk/visualization
+   sdk/model-building
+   sdk/optimization/index
    sdk/profiling
-   sdk/optimizing/pruning
-   sdk/optimizing/quantization
+   sdk/visualization/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: Basic Usage
+   :caption: VisualML Web App
 
-   usage/graphical-model-builder
-   usage/tracking-experiments
-   usage/building-a-config
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Advanced Usage
-
-   advanced/building-a-custom-model
-
+   ui/integrations/index
+   ui/model-building/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: Integrations
+   :caption: REST APIs
 
-   integrations/cvat
-   integrations/github
+   apis/create-config

@@ -2,7 +2,7 @@
 Building a Custom Model
 =======================
 
-VisualML is designed to work with any PyTorch model. We provide a :doc:`graphical model builder <../usage/graphical-model-builder>` that allows you to build different types of models by connecting the available components (backbones, heads, losses, etc.). However, if you have a custom model that is not supported by the graphical model builder, you can still use VisualML to visualize the model's architecture and keep track of its training process.
+VisualML is designed to work with any PyTorch model. We provide a :doc:`graphical model builder <../ui/model-building/index>` that allows you to build different types of models by connecting the available components (backbones, heads, losses, etc.). However, if you have a custom model that is not supported by the graphical model builder, you can still use VisualML to visualize the model's architecture and keep track of its training process.
 
 To use a custom model with VisualML, you need to register the model with VisualML's model registry. The model registry is a dictionary that maps model names to their corresponding classes. You can register your custom model using the ``@MODELS.register`` decorator.
 

@@ -1,8 +1,8 @@
 =====================================
-Visualizations
+Computational Graph
 =====================================
 
-The visualization module provides functionalities to visualize neural network models and calculate their structural properties. This section covers the ``draw_graph`` and ``calculate_max_depth`` functions.
+This section covers the ``draw_graph`` and ``calculate_max_depth`` functions.
 
 ----------
 draw_graph
