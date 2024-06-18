@@ -2,7 +2,7 @@
 Database ERD Diagram
 =================================
 
-.. image:: docs/erd/erd.png
+.. image:: erd/erd.png
    :alt: ERD Diagram
-   :width: 600px
+   :width: 800px
    :align: center
