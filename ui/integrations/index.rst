@@ -11,3 +11,4 @@ VisualML can be integrated with various tools to provide a seamless experience f
     github
     mlflow
     openproject
+    slurm

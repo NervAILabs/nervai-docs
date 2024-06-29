@@ -8,3 +8,5 @@ This package provides a simple API for optimizing neural networks. It is designe
 .. toctree::
     pruning
     quantization
+    profiling
+    computational-graph

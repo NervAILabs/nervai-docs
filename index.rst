@@ -21,8 +21,6 @@ Welcome to VisualML!
 
    sdk/model-building
    sdk/optimization/index
-   sdk/profiling
-   sdk/visualization/index
 
 .. toctree::
    :maxdepth: 2
