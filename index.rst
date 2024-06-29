@@ -12,8 +12,7 @@ Welcome to VisualML!
 
    introduction
    installation
-   contributing
-   database
+   contributing/index
 
 .. toctree::
    :maxdepth: 2
