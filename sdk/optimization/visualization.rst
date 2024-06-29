@@ -1,6 +1,6 @@
-=====================================
-Visualization Module
-=====================================
+=======================================
+Inspecting Model Architectures
+=======================================
 
 The visualization module provides functionalities to visualize neural network models and calculate their structural properties.
 

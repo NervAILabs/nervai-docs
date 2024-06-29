@@ -1,5 +1,5 @@
 ================================================
-Profiling
+Profiling Model Performance
 ================================================
 
 The profiling API provides a comprehensive suite of tools for measuring various aspects of model performance, including memory usage, computational complexity, and runtime. This documentation covers the profiling functions available in the Metinor package for deep learning models.
