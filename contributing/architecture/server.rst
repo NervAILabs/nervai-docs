@@ -4,12 +4,12 @@ VisualML Server Architecture
 
 The VisualML server is a Flask web server that serves the GUI and acts as the middleware between the GUI and the backend. The server provides a RESTful API that allows the GUI to interact with the backend and perform various operations, such as creating and managing machine learning pipelines.
 
-.. image:: images/uml/vml-server_packages.png
+.. image:: /images/uml/vml-server_packages.png
    :alt: Package Diagram of the VisualML Server
    :width: 100%
    :align: center
 
-.. image:: images/uml/vml-server_classes.png
+.. image:: /images/uml/vml-server_classes.png
    :alt: Class Diagram of the VisualML Server
    :width: 100%
    :align: center
@@ -20,7 +20,7 @@ Database Schema
 
 The server uses a file-based database to store information about the pipelines, including the pipeline configuration, the training data, and the trained models. The server also provides functionality to save and load pipelines from disk, allowing users to persist their work across sessions. This section explains the database schema to help you understand how the data is stored and how the server interacts with the database.
 
-.. image:: images/uml/vml-server_database.png
+.. image:: /images/uml/vml-server_database.png
    :alt: Entity Relationship Diagram
    :width: 100%
    :align: center

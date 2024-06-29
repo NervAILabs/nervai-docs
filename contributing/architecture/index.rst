@@ -1,5 +1,5 @@
 ======================================
-The VisualML Design Philosophy
+Understanding the System Architecture
 ======================================
 
 The VisualML project is designed to be a modular and extensible framework for creating visual machine learning pipelines. When you clone the repository, you will see that the project is divided into two main components:
@@ -8,5 +8,5 @@ The VisualML project is designed to be a modular and extensible framework for cr
 - The `vml-server` folder contains the Flask web server, which serves the GUI and acts as the middleware between the GUI and the backend.
 
 .. toctree::
-    modules/sdk
-    modules/server
+    sdk
+    server

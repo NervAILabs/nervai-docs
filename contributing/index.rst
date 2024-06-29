@@ -7,5 +7,4 @@ This contribution guide is intended for developers who want to contribute to the
 
 .. toctree::
     setup
-    philosophy
-    architecture
+    architecture/index
