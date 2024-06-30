@@ -6,25 +6,25 @@ Metinor
 Profiler Module
 --------------------------
 
-.. graphviz:: /images/uml/classes_metinor_profiler.dot
+.. image:: /images/uml/classes_metinor_profiler.png
 
 
 --------------------------
 Pruning Module
 --------------------------
 
-.. graphviz:: /images/uml/classes_metinor_pruning.dot
+.. image:: /images/uml/classes_metinor_pruning.png
 
 
 --------------------------
 Quantization Module
 --------------------------
 
-.. graphviz:: /images/uml/classes_metinor_quantization.dot
+.. image:: /images/uml/classes_metinor_quantization.png
 
 
 --------------------------
 Visualizer Module
 --------------------------
 
-.. graphviz:: /images/uml/classes_metinor_visualization.dot
+.. image:: /images/uml/classes_metinor_visualization.png

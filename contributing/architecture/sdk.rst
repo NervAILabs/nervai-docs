@@ -6,4 +6,4 @@ The VisualML SDK is the core of the VisualML framework. It provides the function
 
 The SDK is organized into several modules, each of which provides a specific set of functionality. The main modules are:
 
-.. graphviz:: /images/uml/classes_vml_sdk.dot
+.. image:: /images/uml/classes_vml_sdk.png

@@ -23,7 +23,7 @@ modules = {
 }
 
 # Generate UML diagrams
-ext = "dot"
+ext = "png"
 for project, path in modules.items():
     subprocess.run(
         [
