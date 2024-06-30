@@ -1,0 +1,21 @@
+digraph "classes_metinor_visualization" {
+rankdir=BT
+charset="utf-8"
+"metinor.metinor.visualization.architecture.computation_graph.ComputationGraph" [color="#77AADD", fontcolor="black", label=<ComputationGraph>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.computation_node.compute_node.FunctionNode" [color="#77AADD", fontcolor="black", label=<FunctionNode>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.computation_node.compute_node.ModuleNode" [color="#77AADD", fontcolor="black", label=<ModuleNode>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.computation_node.base_node.Node" [color="#77AADD", fontcolor="black", label=<Node>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.utils.OrderedSet" [color="#77AADD", fontcolor="black", label=<OrderedSet>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.recorder_tensor.Recorder" [color="#77AADD", fontcolor="black", label=<Recorder>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.recorder_tensor.RecorderTensor" [color="#77AADD", fontcolor="black", label=<RecorderTensor>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.computation_node.compute_node.TensorNode" [color="#77AADD", fontcolor="black", label=<TensorNode>, shape="record", style="filled"];
+"metinor.metinor.visualization.architecture.computation_node.compute_node.FunctionNode" -> "metinor.metinor.visualization.architecture.computation_node.base_node.Node" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.visualization.architecture.computation_node.compute_node.ModuleNode" -> "metinor.metinor.visualization.architecture.computation_node.base_node.Node" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.visualization.architecture.computation_node.compute_node.TensorNode" -> "metinor.metinor.visualization.architecture.computation_node.base_node.Node" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.visualization.architecture.computation_node.compute_node.TensorNode" -> "metinor.metinor.visualization.architecture.computation_node.compute_node.TensorNode" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="main_node", style="solid"];
+"metinor.metinor.visualization.architecture.utils.OrderedSet" -> "metinor.metinor.visualization.architecture.computation_node.base_node.Node" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="children", style="solid"];
+"metinor.metinor.visualization.architecture.utils.OrderedSet" -> "metinor.metinor.visualization.architecture.computation_node.base_node.Node" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="parents", style="solid"];
+"metinor.metinor.visualization.architecture.utils.OrderedSet" -> "metinor.metinor.visualization.architecture.computation_node.compute_node.FunctionNode" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="output_nodes", style="solid"];
+"metinor.metinor.visualization.architecture.utils.OrderedSet" -> "metinor.metinor.visualization.architecture.computation_node.compute_node.ModuleNode" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="output_nodes", style="solid"];
+"metinor.metinor.visualization.architecture.computation_graph.ComputationGraph" -> "metinor.metinor.visualization.architecture.recorder_tensor.Recorder" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="model_graph", style="solid"];
+}

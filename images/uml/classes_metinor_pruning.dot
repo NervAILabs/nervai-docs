@@ -1,0 +1,43 @@
+digraph "classes_metinor_pruning" {
+rankdir=BT
+charset="utf-8"
+"metinor.metinor.optimization.pruning.mixin.ActivationMixin" [color="#77AADD", fontcolor="black", label=<ActivationMixin>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.channel.ActivationNormChannelPruning" [color="#77AADD", fontcolor="black", label=<ActivationNormChannelPruning>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.modules.conv2d.Conv2dMasked" [color="#77AADD", fontcolor="black", label=<Conv2dMasked>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagAct" [color="#77AADD", fontcolor="black", label=<GlobalMagAct>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagGrad" [color="#77AADD", fontcolor="black", label=<GlobalMagGrad>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagWeight" [color="#77AADD", fontcolor="black", label=<GlobalMagWeight>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.mixin.GradientMixin" [color="#77AADD", fontcolor="black", label=<GradientMixin>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagAct" [color="#77AADD", fontcolor="black", label=<LayerMagAct>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagGrad" [color="#77AADD", fontcolor="black", label=<LayerMagGrad>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagWeight" [color="#77AADD", fontcolor="black", label=<LayerMagWeight>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.abstract.LayerPruning" [color="#77AADD", fontcolor="black", label=<LayerPruning>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.modules.linear.LinearMasked" [color="#77AADD", fontcolor="black", label=<LinearMasked>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.modules.base.MaskedModule" [color="#77AADD", fontcolor="black", label=<MaskedModule>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.abstract.Pruning" [color="#77AADD", fontcolor="black", label=<Pruning>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.random.RandomPruning" [color="#77AADD", fontcolor="black", label=<RandomPruning>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.vision.VisionPruning" [color="#77AADD", fontcolor="black", label=<VisionPruning>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.strategies.channel.WeightNormChannelPruning" [color="#77AADD", fontcolor="black", label=<WeightNormChannelPruning>, shape="record", style="filled"];
+"metinor.metinor.optimization.pruning.abstract.LayerPruning" -> "metinor.metinor.optimization.pruning.abstract.Pruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.mixin.ActivationMixin" -> "metinor.metinor.optimization.pruning.abstract.Pruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.mixin.GradientMixin" -> "metinor.metinor.optimization.pruning.abstract.Pruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.modules.conv2d.Conv2dMasked" -> "metinor.metinor.optimization.pruning.modules.base.MaskedModule" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.modules.linear.LinearMasked" -> "metinor.metinor.optimization.pruning.modules.base.MaskedModule" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.channel.ActivationNormChannelPruning" -> "metinor.metinor.optimization.pruning.abstract.LayerPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.channel.WeightNormChannelPruning" -> "metinor.metinor.optimization.pruning.abstract.LayerPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagAct" -> "metinor.metinor.optimization.pruning.mixin.ActivationMixin" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagAct" -> "metinor.metinor.optimization.pruning.vision.VisionPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagGrad" -> "metinor.metinor.optimization.pruning.mixin.GradientMixin" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagGrad" -> "metinor.metinor.optimization.pruning.vision.VisionPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.GlobalMagWeight" -> "metinor.metinor.optimization.pruning.vision.VisionPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagAct" -> "metinor.metinor.optimization.pruning.abstract.LayerPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagAct" -> "metinor.metinor.optimization.pruning.mixin.ActivationMixin" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagAct" -> "metinor.metinor.optimization.pruning.vision.VisionPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagGrad" -> "metinor.metinor.optimization.pruning.abstract.LayerPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagGrad" -> "metinor.metinor.optimization.pruning.mixin.GradientMixin" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagGrad" -> "metinor.metinor.optimization.pruning.vision.VisionPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagWeight" -> "metinor.metinor.optimization.pruning.abstract.LayerPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.magnitude.LayerMagWeight" -> "metinor.metinor.optimization.pruning.vision.VisionPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.strategies.random.RandomPruning" -> "metinor.metinor.optimization.pruning.vision.VisionPruning" [arrowhead="empty", arrowtail="none"];
+"metinor.metinor.optimization.pruning.vision.VisionPruning" -> "metinor.metinor.optimization.pruning.abstract.Pruning" [arrowhead="empty", arrowtail="none"];
+}

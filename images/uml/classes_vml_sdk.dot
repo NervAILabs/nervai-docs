@@ -1,0 +1,39 @@
+digraph "classes_vml_sdk" {
+rankdir=BT
+charset="utf-8"
+"visualml.datasets.modules.BaseDataModule" [color="#BBCC33", fontcolor="black", label=<BaseDataModule>, shape="record", style="filled"];
+"visualml.models.tasks.base_task.BaseTask" [color="#FFAABB", fontcolor="black", label=<BaseTask>, shape="record", style="filled"];
+"visualml.utils.logging.ColoredFormatter" [color="#DDDDDD", fontcolor="black", label=<ColoredFormatter>, shape="record", style="filled"];
+"visualml.utils.logging.CustomHandler" [color="#DDDDDD", fontcolor="black", label=<CustomHandler>, shape="record", style="filled"];
+"visualml.configs.builders.detection.DetectionConfigBuilder" [color="#44BB99", fontcolor="black", label=<DetectionConfigBuilder>, shape="record", style="filled"];
+"visualml.models.tasks.detection_task.DetectionTask" [color="#FFAABB", fontcolor="black", label=<DetectionTask>, shape="record", style="filled"];
+"visualml.models.tasks.image_classification_task.ImageClassificationTask" [color="#FFAABB", fontcolor="black", label=<ImageClassificationTask>, shape="record", style="filled"];
+"visualml.engine.lightning_runner.LightningRunner" [color="#AAAA00", fontcolor="black", label=<LightningRunner>, shape="record", style="filled"];
+"visualml.utils.inspection.openmmlab.MMComponent" [color="#DDDDDD", fontcolor="black", label=<MMComponent>, shape="record", style="filled"];
+"visualml.utils.inspection.openmmlab.MMDetectionInspector" [color="#DDDDDD", fontcolor="black", label=<MMDetectionInspector>, shape="record", style="filled"];
+"visualml.utils.inspection.openmmlab.MMPoseInspector" [color="#DDDDDD", fontcolor="black", label=<MMPoseInspector>, shape="record", style="filled"];
+"visualml.utils.inspection.common.ModuleBuilder" [color="#DDDDDD", fontcolor="black", label=<ModuleBuilder>, shape="record", style="filled"];
+"visualml.utils.inspection.common.Parameter" [color="#DDDDDD", fontcolor="black", label=<Parameter>, shape="record", style="filled"];
+"visualml.configs.builders.pose.PoseConfigBuilder" [color="#44BB99", fontcolor="black", label=<PoseConfigBuilder>, shape="record", style="filled"];
+"visualml.models.tasks.pose_estimation_task.PoseEstimationTask" [color="#FFAABB", fontcolor="black", label=<PoseEstimationTask>, shape="record", style="filled"];
+"visualml.integrations.remote_terminal.RemoteTerminal" [color="#EE8866", fontcolor="black", label=<RemoteTerminal>, shape="record", style="filled"];
+"visualml.engine.runner_module.RunnerModule" [color="#AAAA00", fontcolor="black", label=<RunnerModule>, shape="record", style="filled"];
+"visualml.utils.SharedVariable" [color="#77AADD", fontcolor="black", label=<SharedVariable>, shape="record", style="filled"];
+"visualml.integrations.slurm_cluster.SlurmCluster" [color="#EE8866", fontcolor="black", label=<SlurmCluster>, shape="record", style="filled"];
+"visualml.datasets.modules.TorchVisionDataModule" [color="#BBCC33", fontcolor="black", label=<TorchVisionDataModule>, shape="record", style="filled"];
+"visualml.utils.inspection.torchvision.TorchVisionInspector" [color="#DDDDDD", fontcolor="black", label=<TorchVisionInspector>, shape="record", style="filled"];
+"visualml.utils.inspection.common.Undefined" [color="#DDDDDD", fontcolor="black", label=<Undefined>, shape="record", style="filled"];
+"visualml.datasets.modules.TorchVisionDataModule" -> "visualml.datasets.modules.BaseDataModule" [arrowhead="empty", arrowtail="none"];
+"visualml.models.tasks.detection_task.DetectionTask" -> "visualml.models.tasks.base_task.BaseTask" [arrowhead="empty", arrowtail="none"];
+"visualml.models.tasks.image_classification_task.ImageClassificationTask" -> "visualml.models.tasks.base_task.BaseTask" [arrowhead="empty", arrowtail="none"];
+"visualml.models.tasks.pose_estimation_task.PoseEstimationTask" -> "visualml.models.tasks.base_task.BaseTask" [arrowhead="empty", arrowtail="none"];
+"visualml.utils.inspection.openmmlab.MMComponent" -> "visualml.utils.inspection.common.ModuleBuilder" [arrowhead="empty", arrowtail="none"];
+"visualml.engine.runner_module.RunnerModule" -> "visualml.engine.lightning_runner.LightningRunner" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="module", style="solid"];
+"visualml.integrations.remote_terminal.RemoteTerminal" -> "visualml.integrations.slurm_cluster.SlurmCluster" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="terminal", style="solid"];
+"visualml.utils.inspection.common.Undefined" -> "visualml.utils.inspection.common.Parameter" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="default", style="solid"];
+"visualml.utils.inspection.common.Undefined" -> "visualml.utils.inspection.common.Parameter" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="dtype", style="solid"];
+"visualml.utils.inspection.common.Undefined" -> "visualml.utils.inspection.common.Parameter" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="builtin_type", style="solid"];
+"visualml.utils.inspection.common.Undefined" -> "visualml.utils.inspection.common.Parameter" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="value", style="solid"];
+"visualml.datasets.modules.BaseDataModule" -> "visualml.engine.lightning_runner.LightningRunner" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="dataset", style="solid"];
+"visualml.datasets.modules.TorchVisionDataModule" -> "visualml.engine.lightning_runner.LightningRunner" [arrowhead="odiamond", arrowtail="none", fontcolor="green", label="dataset", style="solid"];
+}

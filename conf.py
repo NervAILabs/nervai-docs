@@ -6,21 +6,21 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'VisualML'
-copyright = '2024, MindGarage'
-author = 'MindGarage'
+project = "VisualML"
+copyright = "2024, MindGarage"
+author = "MindGarage"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.autodoc',
-
-    'sphinx_copybutton',
+    "sphinx.ext.autodoc",
+    "sphinx.ext.graphviz",
+    "sphinx_copybutton",
 ]
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
 # -- Code syntax highlighting ------------------------------------------------
@@ -31,8 +31,8 @@ pygments_dark_style = "github-dark"
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'furo'
-html_static_path = ['_static']
+html_theme = "furo"
+html_static_path = ["_static"]
 
 html_title = "VisualML Documentation"
 # html_additional_pages = {"index": "home.html"}
@@ -40,12 +40,10 @@ html_theme_options = {
     "source_repository": "https://github.com/mindgarage-saif/vml-docs/",
     "source_branch": "main",
     "source_directory": "",
-
     "light_css_variables": {
         "color-brand-primary": "#663399",
         "color-brand-content": "#2c0051",
     },
-
     "footer_icons": [
         {
             "name": "GitHub",
