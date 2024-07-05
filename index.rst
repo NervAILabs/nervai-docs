@@ -25,6 +25,7 @@ Welcome to VisualML!
    metinor/profiler
    metinor/visualizer
    metinor/optimizer/index
+   metinor/tutorials/index
 
 .. toctree::
    :maxdepth: 2
@@ -44,12 +45,3 @@ Welcome to VisualML!
 
    ui/integrations/index
    ui/model-building/index
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Tutorials
-
-   tutorials/quickstart
-   tutorials/profiling
-   tutorials/pruning
-   tutorials/quantization
