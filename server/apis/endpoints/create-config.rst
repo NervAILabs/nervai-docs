@@ -1,5 +1,5 @@
 =================================
-Building the Configuration File
+Endpoint: create_mmpose_config
 =================================
 
 

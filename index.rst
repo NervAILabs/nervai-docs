@@ -13,10 +13,6 @@ Welcome to VisualML!
    introduction
    installation
    contributing/index
-   troubleshooting
-   release_notes
-   license
-   acknowledgements
 
 .. toctree::
    :maxdepth: 2
@@ -46,3 +42,11 @@ Welcome to VisualML!
 
    ui/integrations/index
    ui/model-building/index
+
+.. toctree::
+   :maxdepth: 2
+
+   troubleshooting
+   release_notes
+   license
+   acknowledgements

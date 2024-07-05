@@ -1,6 +1,7 @@
 =======================
-VisualML Server
+REST API Documentation
 =======================
 
 .. toctree::
-    create-config
+    swagger-ui
+    endpoints/create-config
