@@ -18,10 +18,12 @@ Welcome to VisualML!
    :maxdepth: 2
    :caption: Metinor Library
 
+   metinor/quickstart
    metinor/profiler
+   metinor/profiling
    metinor/visualizer
    metinor/optimizer/index
-   metinor/tutorials/index
+   
 
 .. toctree::
    :maxdepth: 2
