@@ -8,3 +8,4 @@ This contribution guide is intended for developers who want to contribute to the
 .. toctree::
     setup
     architecture/index
+    code-styles
