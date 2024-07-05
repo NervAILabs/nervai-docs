@@ -28,6 +28,9 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 pygments_style = "github-dark"
 pygments_dark_style = "github-dark"
 
+# -- Options for nbsphinx -----------------------------------------------------
+nbsphinx_execute = 'never'    # do not execute notebooks
+nbsphinx_allow_errors = True  # do not stop the build process if an error occurs
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
