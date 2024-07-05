@@ -5,15 +5,15 @@ Inspecting Model Architectures
 The visualization module provides functionalities to visualize neural network models and calculate their structural properties.
 
 
-=====================================
+---------------------------------------
 Computational Graph
-=====================================
+---------------------------------------
 
 This section covers the ``draw_graph`` and ``calculate_max_depth`` functions.
 
-----------
+^^^^^^^^^^^^
 draw_graph
-----------
+^^^^^^^^^^^^
 
 The ``draw_graph`` function generates a visual representation of a PyTorch model's computational graph. This visualization includes modules, module hierarchies, torch functions, and tensor shapes captured during forward propagation.
 
@@ -44,9 +44,9 @@ The ``draw_graph`` function generates a visual representation of a PyTorch model
 
 - A ``ComputationGraph`` object that includes the visualization of the PyTorch model.
 
--------------------
+^^^^^^^^^^^^^^^^^^^^
 calculate_max_depth
--------------------
+^^^^^^^^^^^^^^^^^^^^
 
 The ``calculate_max_depth`` function computes the maximum depth of a PyTorch model. This information is useful for visualizing models with ``draw_graph``, ensuring that the graph depth is appropriate for the model's complexity.
 

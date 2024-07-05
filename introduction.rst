@@ -1,5 +1,5 @@
 ===================================
-VisualML: A Deep Learning Framework
+Introduction
 ===================================
 
 VisualML is a framework for training and evaluating deep learning models from graphical user interfaces. It is designed to automate repetitive tasks and to simplify the process of training and evaluating deep learning models.

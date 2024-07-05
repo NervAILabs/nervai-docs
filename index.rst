@@ -20,9 +20,8 @@ Welcome to VisualML!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Metinor
+   :caption: Metinor Library
 
-   metinor/index
    metinor/profiler
    metinor/visualizer
    metinor/optimizer/index
@@ -31,19 +30,17 @@ Welcome to VisualML!
    :maxdepth: 2
    :caption: Using the SDK
 
-   sdk/index
    sdk/model-building
 
 .. toctree::
    :maxdepth: 2
    :caption: VisualML Server
 
-   server/index
+   server/apis/index
 
 .. toctree::
    :maxdepth: 2
    :caption: Web UI
 
-   ui/index
    ui/integrations/index
    ui/model-building/index
