@@ -44,3 +44,12 @@ Welcome to VisualML!
 
    ui/integrations/index
    ui/model-building/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Tutorials
+
+   tutorials/quickstart
+   tutorials/profiling
+   tutorials/pruning
+   tutorials/quantization
