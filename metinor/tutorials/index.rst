@@ -6,7 +6,7 @@ This section contains tutorials that demonstrate how to use Metinor library. The
 
 .. toctree::
 
-   tutorials/quickstart
-   tutorials/profiling
-   tutorials/pruning
-   tutorials/quantization
+   quickstart
+   profiling
+   pruning
+   quantization

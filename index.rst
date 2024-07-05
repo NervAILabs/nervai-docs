@@ -32,6 +32,7 @@ Welcome to VisualML!
    :caption: Using the SDK
 
    sdk/model-building
+   sdk/tutorials/index
 
 .. toctree::
    :maxdepth: 2
