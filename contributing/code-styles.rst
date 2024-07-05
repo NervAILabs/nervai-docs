@@ -2,13 +2,6 @@
 Code Styles
 =================================
 
-.. contents::
-    :local:
-    :depth: 2
-
-Introduction
-------------
-
 This document outlines the code styles and conventions used in the VisualML project. Following these guidelines will help maintain consistency across the codebase and make it easier for developers to read and understand the code.
 
 Python Code Style
