@@ -21,7 +21,7 @@ The ``draw_graph`` function generates a visual representation of a PyTorch model
 
 .. code-block:: python
 
-    from visualml.visualization import draw_graph, calculate_max_depth
+    from vml_sdk.visualization import draw_graph, calculate_max_depth
 
     # Example model
     model = YourModel()
@@ -54,7 +54,7 @@ The ``calculate_max_depth`` function computes the maximum depth of a PyTorch mod
 
 .. code-block:: python
 
-    from visualml.visualization import calculate_max_depth
+    from vml_sdk.visualization import calculate_max_depth
 
     # Example model
     model = YourModel()

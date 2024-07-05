@@ -5,7 +5,7 @@ Building the Configuration File
 
 .. code-block:: python
 
-    from visualml.mm import MMPoseUtils
+    from vml_sdk.mm import MMPoseUtils
 
     @app.route('/create_mmpose_config', methods=['GET'])
     def create_mmpose_config():

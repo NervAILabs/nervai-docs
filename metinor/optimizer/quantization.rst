@@ -17,7 +17,7 @@ First, to see which quantization strategies are available, use the `list_quantiz
 
 .. code-block:: python
 
-    from visualml.optimization import list_quantization_strategies
+    from vml_sdk.optimization import list_quantization_strategies
 
     # List all available quantization strategies
     strategies = list_quantization_strategies()
@@ -30,7 +30,7 @@ To quantize a model, you will use the `quantize` function. This function require
 
 .. code-block:: python
 
-    from visualml.optimization import quantize
+    from vml_sdk.optimization import quantize
 
     # Example: Quantizing a model using Weight-Only Quantization to float16
     quantized_model = quantize(model, 'WeightOnlyQuantization', 'float', 16)
@@ -44,7 +44,7 @@ Quantizing specific layers individually can also be achieved using the `quantize
 
 .. code-block:: python
 
-    from visualml.optimization import quantize_layer
+    from vml_sdk.optimization import quantize_layer
 
     # Example: Quantizing a specific layer of the model
     quantized_layer = quantize_layer(node_id, 'WeightOnlyQuantization', 'float', 16, comp_graph)

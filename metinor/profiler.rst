@@ -71,5 +71,3 @@ The `ReportAnalyzer` class provides tools for analyzing and visualizing the prof
     top_flops_layers = analyzer.find_top_n_layers(MetricType.FLOPS, n=5)
 
 The analyzer also supports plotting capabilities to visualize the profiling results, such as memory usage and layer-wise impacts.
-
-

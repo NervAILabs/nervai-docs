@@ -95,7 +95,7 @@ Use the `list_pruning_strategies` function to list all available pruning strateg
 
 .. code-block:: python
 
-    from visualml.optimization import list_pruning_strategies
+    from vml_sdk.optimization import list_pruning_strategies
 
     strategies = list_pruning_strategies()
     print(strategies)
@@ -110,7 +110,7 @@ To prune a model, use the `prune` function by specifying the model, strategy, an
 
 .. code-block:: python
 
-    from visualml.optimization import prune
+    from vml_sdk.optimization import prune
 
     model = ...
     pruned_model = prune(model, strategy='RandomPruning', compression=1)

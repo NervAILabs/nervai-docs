@@ -8,7 +8,7 @@ To use a custom model with VisualML, you need to register the model with VisualM
 
 .. code-block:: python
 
-    from visualml.registry import MODELS
+    from vml_sdk.registry import MODELS
 
     @MODELS.register_module()
     class MyModel(torch.nn.Module):

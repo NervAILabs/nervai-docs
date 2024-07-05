@@ -14,8 +14,8 @@ except FileNotFoundError:
 
 # Define modules to generate UML diagrams for
 modules = {
-    "vml_sdk": "vml-sdk/visualml/",
-    "vml_server": "vml-server/visualml_server/",
+    "vml_sdk": "vml-sdk/vml_sdk/",
+    "vml_server": "vml-server/vml_server/",
     "metinor_profiler": "metinor/metinor/profiler/",
     "metinor_pruning": "metinor/metinor/optimization/pruning/",
     "metinor_quantization": "metinor/metinor/optimization/quantization/",
