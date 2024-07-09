@@ -3,9 +3,7 @@
 Datasets
 =======================
 
-=======================
-List Datasets for a Task API
-=======================
+**List Datasets for a Task API**
 
 **Endpoint:** `/datasets/{task}`
 
@@ -25,9 +23,7 @@ The List Datasets for a Task API retrieves all datasets related to a specified t
 
 
 
-=======================
-Get Dataset for a Task API
-=======================
+**Get Dataset for a Task API**
 
 **Endpoint:** `/datasets/{task}/{dataset_name}`
 

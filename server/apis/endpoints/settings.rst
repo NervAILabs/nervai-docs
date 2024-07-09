@@ -2,10 +2,7 @@
 Settings API
 ===========================
 
-
-===========================
-Update Password API
-===========================
+**Update Password API**
 
 **Endpoint:** `/settings/update_password`
 
@@ -24,9 +21,7 @@ The Update Password API allows users to change their password by providing the o
 - `200 OK`: Success
 
 
-===========================
-Update User Settings API
-===========================
+**Update User Settings API**
 
 **Endpoint:** `/settings/update_user_settings`
 

@@ -2,9 +2,9 @@
 Integrations API
 =======================
 
-=======================
-GitHub Integration API
-=======================
+
+**GitHub Integration API**
+
 
 **Endpoint:** `/integrations/github`
 
@@ -27,9 +27,7 @@ The GitHub Integration API enables or updates GitHub integration by providing a 
 - `401 Unauthorized`: Access denied
 
 
-=======================
-Check GitHub Integration Status API
-=======================
+**Check GitHub Integration Status API**
 
 **Endpoint:** `/integrations/github`
 
@@ -44,9 +42,9 @@ The Check GitHub Integration Status API retrieves the current status of the GitH
 - `401 Unauthorized`: Access denied
 
 
-=======================
-Disable GitHub Integration API
-=======================
+
+**Disable GitHub Integration API**
+
 
 **Endpoint:** `/integrations/github`
 
@@ -62,9 +60,7 @@ The Disable GitHub Integration API removes the GitHub integration for the user.
 
 
 
-=======================
-DFKI SLURM Integration API
-=======================
+**DFKI SLURM Integration API**
 
 **Endpoint:** `/integrations/slurm`
 
@@ -90,9 +86,7 @@ The DFKI SLURM Integration API enables or updates SLURM integration by providing
 
 
 
-=======================
-Check SLURM Integration Status API
-=======================
+**Check SLURM Integration Status API**
 
 **Endpoint:** `/integrations/slurm`
 
@@ -109,9 +103,7 @@ The Check SLURM Integration Status API retrieves the current status of the SLURM
 
 
 
-=======================
-List SLURM Containers API
-=======================
+**List SLURM Containers API**
 
 **Endpoint:** `/integrations/slurm/containers`
 
@@ -126,9 +118,7 @@ The List SLURM Containers API retrieves a list of all enroot containers on the S
 
 
 
-=======================
-Get SLURM Jobs API
-=======================
+**Get SLURM Jobs API**
 
 **Endpoint:** `/integrations/slurm/jobs`
 
@@ -143,9 +133,7 @@ The Get SLURM Jobs API retrieves a list of queued jobs for the current user.
 
 
 
-=======================
-List SLURM Partitions API
-=======================
+**List SLURM Partitions API**
 
 **Endpoint:** `/integrations/slurm/partitions`
 
@@ -160,9 +148,7 @@ The List SLURM Partitions API retrieves details of available partitions.
 
 
 
-=======================
-Submit SLURM Job API
-=======================
+**Submit SLURM Job API**
 
 **Endpoint:** `/integrations/slurm/submit`
 

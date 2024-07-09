@@ -3,9 +3,7 @@ Users Management API
 ===========================
 
 
-===========================
-Create User API
-===========================
+**Create User API**
 
 **Endpoint:** `/users/`
 
@@ -26,9 +24,7 @@ The Create User API allows for the creation of a new user by providing a usernam
 - `400 Bad Request`: Invalid data provided in request.
 
 
-===========================
-Get All Users API
-===========================
+**Get All Users API**
 
 **Endpoint:** `/users/`
 
@@ -46,9 +42,7 @@ None
 - `200 OK`: Success
 
 
-===========================
-Delete User API
-===========================
+**Delete User API**
 
 **Endpoint:** `/users/`
 
@@ -67,9 +61,7 @@ The Delete User API allows an admin to delete a user from the database by provid
 - `400 Bad Request`: Invalid data provided in request.
 
 
-===========================
-Check Username Availability API
-===========================
+**Check Username Availability API**
 
 **Endpoint:** `/users/check/{username}`
 
@@ -87,9 +79,7 @@ The Check Username Availability API checks if a username is available.
 - `200 OK`: Success
 
 
-===========================
-Update User Type API
-===========================
+**Update User Type API**
 
 **Endpoint:** `/users/{user_id}/type`
 
@@ -109,9 +99,7 @@ The Update User Type API allows updating the account type of a user.
 - `400 Bad Request`: Invalid data provided in request.
 
 
-===========================
-Get Profile Picture API
-===========================
+**Get Profile Picture API**
 
 **Endpoint:** `/users/{username}/profile_picture/`
 
@@ -129,9 +117,7 @@ The Get Profile Picture API retrieves the profile picture of a user by their use
 - `200 OK`: Profile picture successfully retrieved.
 
 
-===========================
-Get Profile Picture Thumbnail API
-===========================
+**Get Profile Picture Thumbnail API**
 
 **Endpoint:** `/users/{username}/thumbnail/`
 

@@ -2,9 +2,7 @@
 Models API
 =======================
 
-=======================
-List All Available Tasks and Models API
-=======================
+**List All Available Tasks and Models API**
 
 **Endpoint:** `/models/`
 
@@ -14,9 +12,7 @@ List All Available Tasks and Models API
 The List All Available Tasks and Models API retrieves a list of all available tasks and models.
 
 
-=======================
-List Models for a Given Task API
-=======================
+**List Models for a Given Task API**
 
 **Endpoint:** `/models/{task}`
 
@@ -26,9 +22,7 @@ List Models for a Given Task API
 The List Models for a Given Task API retrieves a list of models for a specified task.
 
 
-=======================
-Get Computational Graph for a Given Model API
-=======================
+**Get Computational Graph for a Given Model API**
 
 **Endpoint:** `/models/{task}/{model}/graph`
 

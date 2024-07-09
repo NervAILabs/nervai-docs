@@ -3,9 +3,7 @@
 Project API
 =======================
 
-=======================
-Create New Project API
-=======================
+**Create New Project API**
 
 **Endpoint:** `/projects/`
 
@@ -27,9 +25,7 @@ The Create New Project API allows users to create a new project by providing pro
 
 
 
-=======================
-List All Projects API
-=======================
+**List All Projects API**
 
 **Endpoint:** `/projects/`
 
@@ -48,9 +44,7 @@ The List All Projects API retrieves a list of all projects.
 
 
 
-=======================
-Get Project Criteria Name API
-=======================
+**Get Project Criteria Name API**
 
 **Endpoint:** `/projects/criteria`
 
@@ -68,9 +62,7 @@ None
 
 
 
-=======================
-Get Project Details API
-=======================
+**Get Project Details API**
 
 **Endpoint:** `/projects/{project_id}`
 
@@ -90,9 +82,7 @@ The Get Project Details API retrieves details of a specified project.
 
 
 
-=======================
-Delete Project API
-=======================
+**Delete Project API**
 
 **Endpoint:** `/projects/{project_id}`
 
@@ -111,9 +101,7 @@ The Delete Project API allows users to delete a specified project.
 
 
 
-=======================
-Get List of Project Configs API
-=======================
+**Get List of Project Configs API**
 
 **Endpoint:** `/projects/{project_id}/configs`
 
@@ -123,10 +111,7 @@ Get List of Project Configs API
 The Get List of Project Configs API retrieves a list of configurations for a specified project.
 
 
-
-=======================
-Get Details of Project Config API
-=======================
+**Get Details of Project Config API**
 
 **Endpoint:** `/projects/{project_id}/configs/{config_id}`
 
@@ -136,9 +121,7 @@ Get Details of Project Config API
 The Get Details of Project Config API retrieves details of a specified project configuration.
 
 
-=======================
-Get Details of Project Config API
-=======================
+**Get Details of Project Config API**
 
 **Endpoint:** `/projects/{project_id}/configs/{config_id}`
 
@@ -147,9 +130,8 @@ Get Details of Project Config API
 **Description:**
 The Get Details of Project Config API retrieves details of a specified project configuration.
 
-=======================
-Get Project Graph API
-=======================
+
+**Get Project Graph API**
 
 **Endpoint:** `/projects/{project_id}/configs/{config_id}/graph`
 
@@ -159,9 +141,7 @@ Get Project Graph API
 The Get Project Graph API retrieves the graph representation of a specified project configuration.
 
 
-=======================
-Get Project Environment Details API
-=======================
+**Get Project Environment Details API**
 
 **Endpoint:** `/projects/{project_id}/environment`
 
@@ -171,9 +151,7 @@ Get Project Environment Details API
 The Get Project Environment Details API retrieves the environment details of a specified project.
 
 
-=======================
-Update Project Environment Details API
-=======================
+**Update Project Environment Details API**
 
 **Endpoint:** `/projects/{project_id}/environment`
 
@@ -194,9 +172,7 @@ The Update Project Environment Details API allows users to update the environmen
 - `200 OK`: Success
 
 
-=======================
-Get List of Project Experiments API
-=======================
+**Get List of Project Experiments API**
 
 **Endpoint:** `/projects/{project_id}/experiments`
 
@@ -206,9 +182,7 @@ Get List of Project Experiments API
 The Get List of Project Experiments API retrieves a list of experiments for a specified project.
 
 
-=======================
-Train Project API
-=======================
+**Train Project API**
 
 **Endpoint:** `/projects/{project_id}/train`
 
@@ -227,9 +201,7 @@ The Train Project API allows users to train a specified project using a provided
 - `200 OK`: Success
 
 
-=======================
-Train Project Remotely API
-=======================
+**Train Project Remotely API**
 
 **Endpoint:** `/projects/{project_id}/train-remote`
 

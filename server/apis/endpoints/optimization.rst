@@ -2,9 +2,7 @@
 Quantization and Pruning APIs
 =======================
 
-=======================
-Create Pruning Strategies API
-=======================
+**Create Pruning Strategies API**
 
 **Endpoint:** `/optimization/prune`
 
@@ -27,9 +25,7 @@ The Create Pruning Strategies API allows users to create pruning strategies for 
 - `200 OK`: Success
 
 
-=======================
-List All Pruning Strategies API
-=======================
+**List All Pruning Strategies API**
 
 **Endpoint:** `/optimization/prune/strategies`
 
@@ -43,9 +39,7 @@ The List All Pruning Strategies API retrieves a list of all pruning strategies.
 - `200 OK`: Success
 
 
-=======================
-Create Quantization Strategies API
-=======================
+**Create Quantization Strategies API**
 
 **Endpoint:** `/optimization/quantize`
 
@@ -68,9 +62,7 @@ The Create Quantization Strategies API allows users to create quantization strat
 - `200 OK`: Success
 
 
-=======================
-List All Quantization Strategies API
-=======================
+**List All Quantization Strategies API**
 
 **Endpoint:** `/optimization/quantize/strategies`
 
