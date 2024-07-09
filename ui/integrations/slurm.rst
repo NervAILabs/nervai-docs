@@ -13,10 +13,10 @@ To integrate your DFKI Slurm cluster account, follow these steps:
    - **DFKI Slurm password**
    - **VisualML password**
 
-.. image:: images/integrations/slurm.png
+.. image:: /images/integrations/slurm.png
    :alt: User Interface for DFKI Slurm Cluster Integration
    :align: center
 
-**Important:** For privacy, we are not storing the passwords for DFKI. All data is end-to-end encrypted.
+**Important:** For privacy, we are not storing the passwords in plain text for DFKI. Your password is end-to-end encrypted.
 
 **Note:** To run jobs on the cluster, you need to integrate your GitHub account as well.

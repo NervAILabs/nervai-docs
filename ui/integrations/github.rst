@@ -8,7 +8,7 @@ To integrate your GitHub account with our platform, follow these steps:
 2. Select the **Integration** tab.
 3. Under the Integration tab, you will find an option to link your GitHub account by adding a valid GitHub username.
 
-.. image:: images/integrations/github.png
+.. image:: /images/integrations/github.png
    :alt: User Interface for GitHub Integration
    :align: center
 
