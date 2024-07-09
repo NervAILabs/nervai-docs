@@ -3,7 +3,9 @@
 Authentication API
 =======================
 
-**User Login**
+---------------------------------------
+User Login
+---------------------------------------
 
 **Endpoint:** `/api/auth/login`
 
@@ -26,8 +28,9 @@ The User Authentication API allows users to log in to the platform. Users need t
 - `400 Bad Request`: User already logged in.
 - `401 Unauthorized`: Invalid username or password.
 
-
-**User Logout API**
+---------------------------------------
+User Logout API
+---------------------------------------
 
 **Endpoint:** `/api/auth/logout`
 

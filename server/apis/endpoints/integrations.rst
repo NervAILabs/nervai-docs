@@ -2,8 +2,10 @@
 Integrations API
 =======================
 
+---------------------------------------
+GitHub Integration API
+---------------------------------------
 
-**GitHub Integration API**
 
 
 **Endpoint:** `/integrations/github`
@@ -27,7 +29,10 @@ The GitHub Integration API enables or updates GitHub integration by providing a 
 - `401 Unauthorized`: Access denied
 
 
-**Check GitHub Integration Status API**
+---------------------------------------
+Check GitHub Integration Status API
+---------------------------------------
+
 
 **Endpoint:** `/integrations/github`
 
@@ -42,8 +47,9 @@ The Check GitHub Integration Status API retrieves the current status of the GitH
 - `401 Unauthorized`: Access denied
 
 
-
-**Disable GitHub Integration API**
+---------------------------------------
+Disable GitHub Integration API
+---------------------------------------
 
 
 **Endpoint:** `/integrations/github`
@@ -59,8 +65,9 @@ The Disable GitHub Integration API removes the GitHub integration for the user.
 - `401 Unauthorized`: Access denied
 
 
-
-**DFKI SLURM Integration API**
+---------------------------------------
+DFKI SLURM Integration API
+---------------------------------------
 
 **Endpoint:** `/integrations/slurm`
 
@@ -85,8 +92,10 @@ The DFKI SLURM Integration API enables or updates SLURM integration by providing
 - `500 Internal Server Error`: Internal server error
 
 
+---------------------------------------
+Check SLURM Integration Status API
+---------------------------------------
 
-**Check SLURM Integration Status API**
 
 **Endpoint:** `/integrations/slurm`
 
@@ -102,8 +111,9 @@ The Check SLURM Integration Status API retrieves the current status of the SLURM
 - `500 Internal Server Error`: Internal server error
 
 
-
-**List SLURM Containers API**
+---------------------------------------
+List SLURM Containers API
+---------------------------------------
 
 **Endpoint:** `/integrations/slurm/containers`
 
@@ -117,8 +127,10 @@ The List SLURM Containers API retrieves a list of all enroot containers on the S
 - `200 OK`: Success
 
 
+---------------------------------------
+Get SLURM Jobs API
+---------------------------------------
 
-**Get SLURM Jobs API**
 
 **Endpoint:** `/integrations/slurm/jobs`
 
@@ -132,8 +144,10 @@ The Get SLURM Jobs API retrieves a list of queued jobs for the current user.
 - `200 OK`: Success
 
 
+---------------------------------------
+List SLURM Partitions API
+---------------------------------------
 
-**List SLURM Partitions API**
 
 **Endpoint:** `/integrations/slurm/partitions`
 
@@ -147,8 +161,10 @@ The List SLURM Partitions API retrieves details of available partitions.
 - `200 OK`: Success
 
 
+---------------------------------------
+Submit SLURM Job API
+---------------------------------------
 
-**Submit SLURM Job API**
 
 **Endpoint:** `/integrations/slurm/submit`
 
