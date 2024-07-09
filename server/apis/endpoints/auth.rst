@@ -1,6 +1,10 @@
 
 =======================
-User Authentication API
+Authentication API
+=======================
+
+=======================
+User Login
 =======================
 
 **Endpoint:** `/api/auth/login`
