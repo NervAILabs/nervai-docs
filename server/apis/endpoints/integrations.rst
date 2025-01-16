@@ -74,7 +74,7 @@ DFKI SLURM Integration API
 **Method:** `POST`
 
 **Description:**
-The DFKI SLURM Integration API enables or updates SLURM integration by providing the DFKI SLURM username, DFKI SLURM password, and VisualML password.
+The DFKI SLURM Integration API enables or updates SLURM integration by providing the DFKI SLURM username, DFKI SLURM password, and NervAI Engine password.
 
 **Request:**
 .. code-block:: json

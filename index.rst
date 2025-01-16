@@ -1,9 +1,9 @@
-.. VisualML documentation master file, created by
+.. NervAI Engine documentation master file, created by
    sphinx-quickstart on Tue Mar 19 13:52:01 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to VisualML!
+Welcome to NervAI Engine!
 ====================================
 
 .. toctree::
@@ -34,7 +34,7 @@ Welcome to VisualML!
 
 .. toctree::
    :maxdepth: 2
-   :caption: VisualML Server
+   :caption: NervAI Engine Server
 
    server/apis/index
 

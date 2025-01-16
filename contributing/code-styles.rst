@@ -2,12 +2,12 @@
 Code Styles
 =================================
 
-This document outlines the code styles and conventions used in the VisualML project. Following these guidelines will help maintain consistency across the codebase and make it easier for developers to read and understand the code.
+This document outlines the code styles and conventions used in the NervAI Engine project. Following these guidelines will help maintain consistency across the codebase and make it easier for developers to read and understand the code.
 
 Python Code Style
 -----------------
 
-The VisualML project follows the `PEP 8`_ style guide for Python code. This includes the following conventions:
+The NervAI Engine project follows the `PEP 8`_ style guide for Python code. This includes the following conventions:
 
 - Use 4 spaces for indentation.
 - Limit lines to 79 characters.
@@ -51,7 +51,7 @@ You should replace the `.` in the commands above with the path to the directory 
 JavaScript Code Style
 ---------------------
 
-The VisualML project follows the `Airbnb JavaScript Style Guide`_ for JavaScript code. This includes the following conventions:
+The NervAI Engine project follows the `Airbnb JavaScript Style Guide`_ for JavaScript code. This includes the following conventions:
 
 - Use 2 spaces for indentation.
 - Limit lines to 100 characters.

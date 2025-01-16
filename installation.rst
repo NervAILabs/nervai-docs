@@ -21,8 +21,8 @@ To get started, clone the repository by running the following command:
 
 .. code-block:: bash
 
-    git clone --recurse-submodules https://github.com/mindgarage-saif/visual-ml.git
-    cd visual-ml
+    git clone --recurse-submodules https://github.com/nervailabs/nervai-engine.git
+    cd nervai-engine
 
 .. note::
     TL;DR - For automatic setup, execute `./run.sh` from project root.
@@ -53,7 +53,7 @@ To install the dependencies, run the following commands:
     pip install .
     mim install -r requirements-mim.txt
 
-At this point, the environment is set up and the VisualML SDK is installed. Next, you will set up the Flask server for the VisualML web interface by installing the dependencies in the `vml-server` directory.
+At this point, the environment is set up and the NervAI Engine SDK is installed. Next, you will set up the Flask server for the NervAI Engine web interface by installing the dependencies in the `vml-server` directory.
 
 .. code-block:: bash
 
@@ -70,6 +70,6 @@ To run the server, navigate to the `vml-server` directory and run the following 
 
     python main.py
 
-This will start the server and you can access the VisualML web interface by navigating to `http://127.0.0.1:5000/` in your web browser.
+This will start the server and you can access the NervAI Engine web interface by navigating to `http://127.0.0.1:5000/` in your web browser.
 
 You can append the `--debug` flag to the command to run the server in debug mode
