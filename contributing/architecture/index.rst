@@ -10,8 +10,8 @@ When you clone the NervAI Engine project repository, you will find several subfo
 
     .
     |── docs: Contains the documentation for the project.
-    ├── metinor: Contains the Metinor library.
-    ├── vml-sdk: Contains the SDK for the NervAI Engine framework.
+    ├── metinor: Contains the Optimization Toolkit.
+    ├── vml-sdk: Contains the NervAI Engine SDK.
     └── vml-server: Contains the Flask web server.
         ├── routes
         │   └── apis: Contains the REST API endpoints.
@@ -33,7 +33,7 @@ In the following sections, we will provide more detailed information about each 
 .. toctree::
    :maxdepth: 2
 
-   metinor
+   nervai-optim
    sdk
    server
    tracking

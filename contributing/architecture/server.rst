@@ -1,5 +1,5 @@
 ============================
-NervAI Engine Server Architecture
+NervAI Server
 ============================
 
 The NervAI Engine server is a Flask web server that serves the GUI and acts as the middleware between the GUI and the backend. The server provides a RESTful API that allows the GUI to interact with the backend and perform various operations, such as creating and managing machine learning pipelines.

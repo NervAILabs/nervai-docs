@@ -3,52 +3,49 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to NervAI Engine!
 ====================================
+NervAI Engine
+====================================
+
+NervAI Engine is a framework for training and evaluating deep learning models from graphical user interfaces. It is designed to automate repetitive tasks and to simplify the process of training and evaluating deep learning models.
+
+.. warning::
+    NervAI Engine is currently in alpha stage and is not recommended for production use.
+
+-------------------
+Documentation Index
+-------------------
 
 .. toctree::
    :maxdepth: 2
    :caption: Getting Started
 
-   introduction
    installation
-   contributing/index
+   release_notes
+   license
 
 .. toctree::
    :maxdepth: 2
-   :caption: Metinor Library
+   :caption: User Manual
 
-   metinor/quickstart
-   metinor/profiler
-   metinor/profiling
-   metinor/visualizer
-   metinor/optimizer/index
-   
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Using the SDK
-
-   sdk/model-building
-   sdk/tutorials/index
-
-.. toctree::
-   :maxdepth: 2
-   :caption: NervAI Engine Server
-
+   engine/index
+   engine/getting-started/index
+   engine/projects/index
+   engine/advanced-features/index
+   engine/integrations/index
    server/apis/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: Web UI
+   :caption: Tools & SDK
 
-   ui/integrations/index
-   ui/model-building/index
+   sdk/index
+   nervai-optim/index
 
 .. toctree::
    :maxdepth: 2
+   :caption: Developer Guide
 
+   contributing/index
    troubleshooting
-   release_notes
-   license
    acknowledgements
