@@ -9,7 +9,7 @@ MLflow is an open source platform for managing the end-to-end machine learning l
 - Managing and deploying models from a variety of ML libraries to a variety of model serving and inference platforms ([MLflow Models](https://mlflow.org/docs/latest/models.html)).
 
 .. note::
-    MindGarage hosts a local MLFlow server for our internal use. You can use it by setting the tracking URI in your experiments to: [`http://mindgarage07.cs.uni-kl.de:8001`](http://mindgarage07.cs.uni-kl.de:8001).
+    NervAI Labs host a local MLFlow server for our internal use. You can use it by setting the tracking URI in your experiments to: [`http://mindgarage07.cs.uni-kl.de:8001`](http://mindgarage07.cs.uni-kl.de:8001).
 
 
 -------------------------------------
